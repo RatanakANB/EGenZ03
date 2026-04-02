@@ -34,12 +34,12 @@ def multiply(a, b):
     #pass
 
 def divide(a, b):
-    # if (b==0):
-    #     raise ValueError ("Cannot divide by Zero")
-    # result = a/b
-    # log_action("divide", result)
-    # return result
-    pass
+    if (b==0):
+        raise ValueError ("Cannot divide by Zero")
+    result = a/b
+    log_action("divide", result)
+    return result
+    # pass
 
 
 # ===========================================
