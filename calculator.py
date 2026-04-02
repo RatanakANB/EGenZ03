@@ -15,10 +15,10 @@ def add(a, b):
     return result
 
 def subtract(a, b):
-    # result = a - b 
-    # log_action("subtract", result)
-    # return result
-    pass
+    result = a - b 
+    log_action("subtract", result)
+    return result
+    # pass
 
 
 # ===========================================
