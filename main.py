@@ -26,7 +26,7 @@ def main():
             elif choice == '4':  a,b = _ab(); print(calculator.divide(a,b))
             else: print('Invalid option') # bugfix 1
         except Exception as e:
-            # print(f'Error: {e}') # bugfix 2
+            print(f'Error: {e}') # bugfix 2
             pass
 
 if __name__ == "__main__":
