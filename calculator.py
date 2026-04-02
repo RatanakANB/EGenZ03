@@ -1,4 +1,5 @@
 import math
+from unittest import result
 from logger import log_action
 
 ## feature has 2 which are {first feature = {feature}/01/add-subtract, second feature = {feature}/02/multiply-divide}
@@ -27,10 +28,10 @@ def subtract(a, b):
 #  FEATURE 2
 
 def multiply(a, b):
-    # result = a * b
-    # log_action("multiply", result)
-    # return result
-    pass
+     result = a * b
+     log_action("multiply", result)
+     return result
+    #pass
 
 def divide(a, b):
     # if (b==0):
