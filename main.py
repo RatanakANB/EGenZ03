@@ -21,8 +21,8 @@ def main():
         if choice == '0': print("Goodbye!"); break
         try:
             if   choice == '1':  a,b = _ab(); print(calculator.add(a,b))
-            # elif choice == '2':  a,b = _ab(); print(calculator.subtract(a,b)) # hotfix 1
-            # elif choice == '3':  a,b = _ab(); print(calculator.multiply(a,b)) # hotfix 2
+            elif choice == '2':  a,b = _ab(); print(calculator.subtract(a,b)) # hotfix 1
+            elif choice == '3':  a,b = _ab(); print(calculator.multiply(a,b)) # hotfix 2
             elif choice == '4':  a,b = _ab(); print(calculator.divide(a,b))
             else: print('Invalid option') # bugfix 1
         except Exception as e:
